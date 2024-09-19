@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive Comments Section</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+    
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="parent_content">
+ <div class="all_content">
+  <div class="quantity">
+    <img src="images/icon-plus.svg" alt="Increase score" id="plus_value">
+    <span class="number_quantity">0</span>
+    <img src="images/icon-minus.svg" alt="Decrease score" id="minus_value">
+  </div>
+  <div class="info_comment">
+    <div class="header_comment">
+      <div class="info_of_humen">
+        <img src="images/favicon-32x32.png" alt="user avatar">
+        <h1>hicham</h1>
+        <h5>1 month ago</h5>
+      </div>
+      <div class="replay_btn">
+        <img src="images/icon-reply.svg" alt="reply">
+        <h3 class="reply">Reply</h3>
+        <button class="delete_btn"><img src="images/icon-delete.svg" alt="">delete</button>
+        <button class="edit_btn"><img src="images/icon-edit.svg" alt="">edit</button>
+      </div>
+    </div>
+    <p>
+     
+    </p>
+  </div>
+ </div>
+  </div>
+ 
+</div>
+<section>
+  <div class="replay_comment">
+    <img src="images/avatars/image-juliusomo.png" alt="">
+    <textarea placeholder="add a comment..." id="textarea_comment"></textarea>
+    <button class="send-btn">send</button>
+  </div>
+</section>
+<div class="delete_container">
+  <div class="delete_content">
+    <h1>delete comment</h1>
+    <p>are you sure you want to delete this comment ?
+      this will remove the comment and can't be undone;
+    </p>
+    <div class="delete_btn_content">
+      <button class="refuse_delete">no,cancel</button>
+      <button class="accepted_delete">yes,delete</button>
+    </div>
+  </div>
+</div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="#">HICHAM DRAKECH</a>.
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
